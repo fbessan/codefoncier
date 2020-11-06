@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "160910314954",
+    "firebase_url": "https://codedubenin.firebaseio.com",
+    "project_id": "codedubenin",
+    "storage_bucket": "codedubenin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160910314954:android:9c4afd59eb31c822",
+        "android_client_info": {
+          "package_name": "com.besco.innova.codefoncier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160910314954-c3lqergqhg0a9cne5tisb9mml9bnsr38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtM2Ly4bXtKIIHMaVK_r2x_bzGIJ0LfwY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_content"
+    android:scaleType="centerCrop"
+    android:background="@drawable/be"
+    android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="124dp"
+        android:gravity="center"
+        >
+
+
+            <ImageView
+                android:id="@+id/imagebenin"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:src="@drawable/benin"
+                android:layout_centerInParent="true"
+                />
+
+            <TextView
+                android:id="@+id/textBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CODE FONCIER"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_below="@+id/imagebenin"
+                android:textSize="30sp"
+                tools:targetApi="jelly_bean_mr1"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DU BENIN"
+                android:textStyle="bold"
+                android:layout_below="@+id/textBox"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                tools:targetApi="jelly_bean_mr1"
+                tools:ignore="HardcodedText" />
+
+        <ProgressBar
+            android:id="@+id/circularProgress"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:indeterminate="true"
+            android:layout_below="@+id/textBox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            tools:ignore="ObsoleteLayoutParam" />
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

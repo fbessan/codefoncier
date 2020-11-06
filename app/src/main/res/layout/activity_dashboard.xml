@@ -1,0 +1,233 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:id="@+id/dashboardmain"
+    android:background="@drawable/be">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="32dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagebenin1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:src="@mipmap/ic_code_action"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:tint="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Code Foncier"
+                    android:id="@+id/txtimagebenin1"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:layout_below="@+id/imagebenin1"
+                    android:layout_alignLeft="@+id/imagebenin1"
+                    android:layout_alignStart="@+id/imagebenin1"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="32dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagebenin2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:src="@mipmap/ic_recherche_action"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:layout_centerInParent="true"
+                    android:tint="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recherche"
+                    android:id="@+id/txtimagebenin2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:layout_below="@+id/imagebenin2"
+                    android:layout_alignLeft="@+id/imagebenin2"
+                    android:layout_alignStart="@+id/imagebenin2"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="32dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagebenin3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/circle"
+                    android:src="@mipmap/ic_evaluer"
+                    android:layout_weight="1"
+                    android:layout_centerInParent="true"
+                    android:tint="@color/colorWhite"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Evaluer"
+                    android:id="@+id/txtimagebenin3"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:layout_below="@+id/imagebenin3"
+                    android:layout_alignLeft="@+id/imagebenin3"
+                    android:layout_alignStart="@+id/imagebenin3"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="32dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagebenin4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:src="@mipmap/ic_favoris_action"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:layout_centerInParent="true"
+                    android:tint="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Favoris"
+                    android:id="@+id/txtimagebenin4"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:layout_below="@+id/imagebenin4"
+                    android:layout_alignLeft="@+id/imagebenin4"
+                    android:layout_alignStart="@+id/imagebenin4"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="32dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagebenin5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:src="@mipmap/ic_faq"
+                    android:background="@drawable/circle"
+                    android:layout_weight="1"
+                    android:layout_centerInParent="true"
+                    android:tint="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FAQ"
+                    android:id="@+id/txtimagebenin5"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_below="@+id/imagebenin5"
+                    android:layout_alignLeft="@+id/imagebenin5"
+                    android:layout_alignStart="@+id/imagebenin5"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="32dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imagebenin6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@mipmap/ic_help"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/circle"
+                    android:layout_weight="1"
+                    android:layout_centerInParent="true"
+                    android:tint="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aide"
+                    android:id="@+id/txtimagebenin6"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_below="@+id/imagebenin6"
+                    android:layout_alignLeft="@+id/imagebenin6"
+                    android:layout_alignStart="@+id/imagebenin6"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

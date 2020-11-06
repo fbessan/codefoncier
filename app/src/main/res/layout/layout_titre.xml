@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:elevation="5dp"
+    android:layout_marginTop="2dp"
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorPrimary"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingTop="15dp"
+           android:paddingBottom="10dp"
+           android:paddingStart="5dp"
+           android:background="@drawable/theme_color"
+           android:textColor="@color/default_text_color"
+           android:textSize="@dimen/section_text_size"
+           android:id="@+id/text_section"
+           android:layout_weight="0.12"
+
+           android:singleLine="true"
+           android:ellipsize="marquee"
+           android:scrollHorizontally="true"
+           android:paddingLeft="15dip"
+           android:paddingRight="15dip"
+           android:focusable="true"
+           android:focusableInTouchMode="true"
+           android:freezesText="true"
+
+
+           tools:ignore="RtlCompat" />
+
+       <ToggleButton
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/toggle_button_section"
+           android:contentDescription="@string/image_button_content_description"
+           android:background="@drawable/selector_section_toggle"
+           android:padding="10dp"
+           android:textOn=""
+           android:textOff=""
+           android:layout_weight="0.88"/>
+
+   </LinearLayout>
+
+</android.support.v7.widget.CardView>

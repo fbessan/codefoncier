@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Code Foncier</string>
+    <string name="activity_label">Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_button_content_description">Change state of section</string>
+
+    <string name="html_content_aide">
+        <![CDATA[
+            <html>
+            <body style="text-align:justify;">
+            <h3> Aide Code Foncier</h3>
+            <p>NB: La liste des articles se chargent au démarrage de l\'application depuis le serveur. Bien vouloir rester connecté lors de l\'ouverture de l\'application si ce n\'était pas le cas la première fois.</p>
+            <p>En haut à la droite vous avez la présentation du menu.</p>
+            <ul>
+            <li>Menu Partager:    Ce menu permet de partager l\'application avec vos amis par divers canaux, WhatsApp, FaceBook, etc.</li>
+            <p>Il s\'agit ici de parler de l\'application.</p>
+            <li>Menu Le conseil du jour:  Cela permet de recevoir chaque jour l\'avis d\'un expert sur un des articles du code foncier.</li>
+            <li>Menu Contactez-Nous: C\'est une page qui affiche les contacts des auteurs de l\'application pour toute suggestion ou remarque.</li>
+            <li>Menu FAQ: Ce menu donne une petite idée des questions les plus posées sur le nouveau code foncier en vigueur au Bénin. Ces questions peuvent varier au gré du temps et donc ces données sont chargées depuis le serveur de façon dynamique à chaque démarrage de l\'application.</li>
+            <li>Menu Evaluer: Ici vous êtes invités à donner votre avis sur l\'application</li>
+            <li>Menu Favoris: Ce menu vous affiche la liste des articles que vous avez marqués comme favoris pour pouvoir les relire plus tard et plus facilement.</li>
+            <li>Menu Code Foncier: Ici vous avez la liste des articles organisés par titres et chapitres. Les sections et paragraphes sont aussi pris en compte. Vous pouvez appuyer sur le bouton du coin gauche pour faire défiler le nom du chapitre quand c\'est trop long ou cliquer dessus pou l\'ouvrir. Les numéros affichés en vert à gauche dans les chapitres représentent les numéros des articles.</li>
+            </ul>
+            <p></p>
+            <p>Sur la page d\'accueil vous avez les articles repertoriés par titre et par chapitre principalement.</p>
+            <p>Naviguez à travers pour prendre connaissance de nos nouvelles lois. </p>
+            <p>Bonne lecture !!!</p>
+            </body>
+            </html>
+        ]]>
+    </string>
+</resources>
